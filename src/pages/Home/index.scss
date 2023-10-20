@@ -1,0 +1,28 @@
+.home {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+    header {
+      background-color: #333;
+      color: rgb(0, 0, 0);
+      padding: 10px;
+  
+      h1 {
+        font-size: 24px;
+      }
+    }
+  
+    main {
+      margin-top: 20px;
+    }
+  
+    footer {
+      background-color: #333;
+      color: rgb(250, 250, 250);
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  
