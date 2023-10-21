@@ -4,15 +4,16 @@ import './index.scss';
 function Home() {
   return (
     <div className="home">
-      <header>
-        <h1>Bienvenido a mi página de inicio</h1>
-      </header>
-      <main>
-        <p>Esta es una página de inicio simple.</p>
-      </main>
-      <footer>
-        <p>© 2023 - Mi Página de Inicio</p>
-      </footer>
+       <div className='container'>
+        <section className='text'>
+          <h2>Esta es una app del clima</h2>
+        </section>
+        <section className='cards'>
+          <div className='card1'></div>
+          <div className='card2'></div>
+          <div className='card3'></div>
+        </section>
+       </div>
     </div>
   );
 }

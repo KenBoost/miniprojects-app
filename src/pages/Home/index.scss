@@ -3,26 +3,64 @@
     background-color: #f0f0f0;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 100vh;
+ 
   
-    header {
-      background-color: #333;
-      color: rgb(0, 0, 0);
-      padding: 10px;
-  
-      h1 {
-        font-size: 24px;
+    .container{
+   
+      width: 85%;
+      margin: auto;
+      height: 94vh;
+     
+      .text{
+        margin: 5px;
+        text-align: center;
+        height: 8%;
+
+        h2{
+          font-family: 'Coolvetica' !important;
+          font-weight: 400;
+          font-size: 25px;
+         }
       }
-    }
+
+      .cards{
+        height:84%; 
+        padding: 10px;  
+        margin: 10px;   
+        border-radius: 10px;
+        -webkit-box-shadow: 1px 7px 21px 0px rgba(230,214,230,1);
+        -moz-box-shadow: 1px 7px 21px 0px rgba(230,214,230,1);
+        box-shadow: 1px 7px 21px 0px rgba(230,214,230,1);
+        display: flex;
+        justify-content: space-evenly;
+
+        .card1{
+          width: 30%;
+       
+          -webkit-box-shadow: 1px 7px 21px 0px rgba(230,214,230,1);
+          -moz-box-shadow: 1px 7px 21px 0px rgba(230,214,230,1);
+           box-shadow: 1px 7px 21px 0px rgba(230,214,230,1);
+        }
+
+        .card2{
+          width: 30%;
+       
+          -webkit-box-shadow: 1px 7px 21px 0px rgba(230,214,230,1);
+          -moz-box-shadow: 1px 7px 21px 0px rgba(230,214,230,1);
+           box-shadow: 1px 7px 21px 0px rgba(230,214,230,1);
+        }
+
+        .card3{
+          width: 30%;
   
-    main {
-      margin-top: 20px;
-    }
-  
-    footer {
-      background-color: #333;
-      color: rgb(250, 250, 250);
-      padding: 10px;
-      font-size: 14px;
+          -webkit-box-shadow: 1px 7px 21px 0px rgba(230,214,230,1);
+          -moz-box-shadow: 1px 7px 21px 0px rgba(230,214,230,1);
+           box-shadow: 1px 7px 21px 0px rgba(230,214,230,1);
+        }
+
+
+      }
     }
   }
   
